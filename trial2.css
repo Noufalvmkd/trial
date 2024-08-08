@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.section5{
+    padding: 15px;
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    width: 80%;
+    margin: 0 auto;
+
+
+
+
+}
+.section5 .gr{
+    padding: 30px;
+}
+.section5 .gr img{
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .section5{
+        grid-template-columns: 1fr ;
+    }
+    #gr{
+        flex-direction: column-reverse;
+    }
+    .container .box {
+    max-width: 100%;
+    text-align: justify; 
+    margin: 0 auto;
+    border: 1px solid red; 
+    grid-template-columns: 1fr;
+             
+}
+.container .box1{
+    max-width: 100%;
+    text-align: justify; 
+    margin: 10px auto;
+    border: 1px solid rgb(88, 0, 0); 
+}
+.box2{
+    max-width: 100%;
+    text-align: justify; 
+    margin: 0 auto;
+    border: 1px solid red;
+    
+}
+}
+.btn {
+    color: rgb(0, 238, 255);
+}
